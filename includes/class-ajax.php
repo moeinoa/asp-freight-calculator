@@ -9,6 +9,13 @@ class ASP_Freight_Ajax {
         add_action( 'wp_ajax_asp_freight_calculate',        [ $this, 'handle_calculate' ] );
         add_action( 'wp_ajax_nopriv_asp_freight_calculate', [ $this, 'handle_calculate' ] );
         add_action( 'wp_ajax_asp_freight_clear_cache',      [ $this, 'handle_clear_cache' ] );
+        // nonce تازه برای صفحه‌های کش‌شده (LiteSpeed)؛ فقط یک توکن می‌دهد و خودش چیزی را تغییر نمی‌دهد.
+        add_action( 'wp_ajax_asp_freight_nonce',            [ $this, 'handle_fresh_nonce' ] );
+        add_action( 'wp_ajax_nopriv_asp_freight_nonce',     [ $this, 'handle_fresh_nonce' ] );
+    }
+
+    public function handle_fresh_nonce(): void {
+        wp_send_json_success( [ 'nonce' => wp_create_nonce( 'asp_freight_nonce' ) ] );
     }
 
     public function handle_calculate(): void {
@@ -72,7 +79,7 @@ class ASP_Freight_Ajax {
 
         // ── ۷. محاسبه قیمت ───────────────────────────────────────────────────
         $settings = $data['settings'];
-        $price    = ( $vehicle['rate_per_km'] * $distance_km ) + $vehicle['base_fee'];
+        $price    = ( ( $vehicle['rate_per_km'] ?? 0 ) * $distance_km ) + ( $vehicle['base_fee'] ?? 0 );
 
         if ( ! empty( $vehicle['min_price'] ) && $price < $vehicle['min_price'] ) {
             $min_applied = true;
@@ -81,7 +88,11 @@ class ASP_Freight_Ajax {
             $min_applied = false;
         }
 
-        $round_to = $settings['round_to'] ?? 100000;
+        // round_to صفر/نامعتبر در JSON باعث DivisionByZeroError (خطای ۵۰۰) می‌شد؛ به پیش‌فرض برمی‌گردد.
+        $round_to = (int) ( $settings['round_to'] ?? 100000 );
+        if ( $round_to <= 0 ) {
+            $round_to = 100000;
+        }
         $price    = (int) ceil( $price / $round_to ) * $round_to;
 
         // ── ۸. پاسخ ──────────────────────────────────────────────────────────
@@ -104,11 +115,12 @@ class ASP_Freight_Ajax {
         }
 
         global $wpdb;
-        $deleted = $wpdb->query(
-            "DELETE FROM {$wpdb->options}
-             WHERE option_name LIKE '_transient_asp_freight_dist_%'
-                OR option_name LIKE '_transient_timeout_asp_freight_dist_%'"
-        );
+        // زیرخط در LIKE یک نویسه‌ی جایگزین است؛ برای تطبیق دقیق، escape می‌شود.
+        $deleted = $wpdb->query( $wpdb->prepare(
+            "DELETE FROM {$wpdb->options} WHERE option_name LIKE %s OR option_name LIKE %s",
+            $wpdb->esc_like( '_transient_asp_freight_dist_' ) . '%',
+            $wpdb->esc_like( '_transient_timeout_asp_freight_dist_' ) . '%'
+        ) );
 
         wp_send_json_success( [ 'deleted' => $deleted ] );
     }

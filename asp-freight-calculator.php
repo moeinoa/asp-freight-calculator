@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       ASP Freight Calculator
  * Description:       Calculates intercity freight rates by vehicle type using the Neshan API.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            Moein Akbari
@@ -15,7 +15,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ASP_FREIGHT_VER',  '1.1.0' );
+define( 'ASP_FREIGHT_VER',  '1.1.1' );
 define( 'ASP_FREIGHT_DIR',  plugin_dir_path( __FILE__ ) );
 define( 'ASP_FREIGHT_URL',  plugin_dir_url( __FILE__ ) );
 define( 'ASP_FREIGHT_DATA', ASP_FREIGHT_DIR . 'data/calculator-data.json' );

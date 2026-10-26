@@ -37,14 +37,18 @@
     var filtered    = [];
     var activeIndex = -1;
 
+    function esc(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
     function highlight(text, query) {
-      if (!query) return text;
+      if (!query) return esc(text);
       var idx = text.indexOf(query);
-      if (idx === -1) return text;
+      if (idx === -1) return esc(text);
       return (
-        text.slice(0, idx) +
-        '<mark>' + text.slice(idx, idx + query.length) + '</mark>' +
-        text.slice(idx + query.length)
+        esc(text.slice(0, idx)) +
+        '<mark>' + esc(text.slice(idx, idx + query.length)) + '</mark>' +
+        esc(text.slice(idx + query.length))
       );
     }
 
@@ -197,23 +201,45 @@
       var hpField = document.getElementById('asp_hp_field');
       var tsField = document.getElementById('asp-ts-field');
 
-      var body = new URLSearchParams({
-        action       : 'asp_freight_calculate',
-        nonce        : data.nonce,
-        origin       : selectedOrigin.id,
-        dest         : selectedDest.id,
-        vehicle      : vehicleSel.value,
-        asp_hp_field : hpField ? hpField.value : '',
-        asp_ts       : tsField ? tsField.value : '',
-      });
+      function send(nonce) {
+        var body = new URLSearchParams({
+          action       : 'asp_freight_calculate',
+          nonce        : nonce,
+          origin       : selectedOrigin.id,
+          dest         : selectedDest.id,
+          vehicle      : vehicleSel.value,
+          asp_hp_field : hpField ? hpField.value : '',
+          asp_ts       : tsField ? tsField.value : '',
+        });
 
-      fetch(data.ajaxUrl, {
-        method : 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body   : body.toString(),
-        signal : controller.signal,
-      })
-        .then(function (r) { return r.json(); })
+        return fetch(data.ajaxUrl, {
+          method : 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body   : body.toString(),
+          signal : controller.signal,
+        }).then(function (r) {
+          return r.json().then(function (json) { return { status: r.status, json: json }; });
+        });
+      }
+
+      // صفحه‌ی کش‌شده (LiteSpeed) ممکن است nonce منقضی داشته باشد (۴۰۳)؛
+      // یک nonce تازه گرفته و فقط یک بار دوباره تلاش می‌کنیم.
+      send(data.nonce)
+        .then(function (o) {
+          if (o.status !== 403 || (o.json && o.json.success)) return o.json;
+          return fetch(data.ajaxUrl, {
+            method : 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body   : 'action=asp_freight_nonce',
+            signal : controller.signal,
+          })
+            .then(function (r) { return r.json(); })
+            .then(function (n) {
+              if (!n || !n.success) return o.json;
+              data.nonce = n.data.nonce;
+              return send(data.nonce).then(function (o2) { return o2.json; });
+            });
+        })
         .then(function (res) {
           loadingEl.style.display = 'none';
           currentRequest = null;
