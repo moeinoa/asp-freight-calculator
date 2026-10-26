@@ -1,0 +1,2985 @@
+{
+  "origin": "تهران",
+  "settings": {
+    "round_to": 600000,
+    "currency_label": "تومان"
+  },
+  "vehicles": [
+    {
+      "id": "nissan",
+      "label": "نیسان",
+      "rate_per_km": 6076,
+      "base_fee": 1633639,
+      "min_price": 0,
+      "hard_factor": 1.104
+    },
+    {
+      "id": "khavar3",
+      "label": "خاور ۳ تن",
+      "rate_per_km": 10520,
+      "base_fee": 3604544,
+      "min_price": 0,
+      "hard_factor": 1.041
+    },
+    {
+      "id": "truck6",
+      "label": "کامیون ۶ چرخ (تک)",
+      "rate_per_km": 12634,
+      "base_fee": 5245394,
+      "min_price": 0,
+      "hard_factor": 1.121
+    },
+    {
+      "id": "truck10",
+      "label": "کامیون ۱۰ چرخ (جفت)",
+      "rate_per_km": 15859,
+      "base_fee": 6918006,
+      "min_price": 0,
+      "hard_factor": 1.134
+    },
+    {
+      "id": "trailer",
+      "label": "تریلی ترانزیت",
+      "rate_per_km": 20368,
+      "base_fee": 10436214,
+      "min_price": 9000000,
+      "hard_factor": 1.144
+    }
+  ],
+  "destinations": [
+    {
+      "city": "ری",
+      "distance_km": 15,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ری",
+      "lat": 35.59871,
+      "lng": 51.438391
+    },
+    {
+      "city": "باقرشهر",
+      "distance_km": 23,
+      "is_hard_route": false,
+      "note": "",
+      "id": "باقرشهر",
+      "lat": 35.534498,
+      "lng": 51.404882
+    },
+    {
+      "city": "اسلامشهر",
+      "distance_km": 25,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اسلامشهر",
+      "lat": 35.534438,
+      "lng": 51.233226
+    },
+    {
+      "city": "شهر قدس",
+      "distance_km": 25,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شهر_قدس",
+      "lat": 32.714751,
+      "lng": 51.112944
+    },
+    {
+      "city": "کهریزک",
+      "distance_km": 28,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کهریزک",
+      "lat": 35.519829,
+      "lng": 51.358754
+    },
+    {
+      "city": "فرون‌آباد",
+      "distance_km": 30,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فرون‌آباد",
+      "lat": 35.514068,
+      "lng": 51.619701
+    },
+    {
+      "city": "قرچک",
+      "distance_km": 30,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قرچک",
+      "lat": 35.421349,
+      "lng": 51.588686
+    },
+    {
+      "city": "صالحیه",
+      "distance_km": 32,
+      "is_hard_route": false,
+      "note": "",
+      "id": "صالحیه",
+      "lat": 35.501872,
+      "lng": 51.190476
+    },
+    {
+      "city": "نسیم‌شهر",
+      "distance_km": 35,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نسیم‌شهر",
+      "lat": 35.557108,
+      "lng": 51.165441
+    },
+    {
+      "city": "باغستان",
+      "distance_km": 35,
+      "is_hard_route": false,
+      "note": "",
+      "id": "باغستان",
+      "lat": 34.102086,
+      "lng": 58.292352
+    },
+    {
+      "city": "اندیشه",
+      "distance_km": 35,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اندیشه",
+      "lat": 35.69502,
+      "lng": 51.024314
+    },
+    {
+      "city": "شهریار",
+      "distance_km": 38,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شهریار",
+      "lat": 35.654869,
+      "lng": 51.060665
+    },
+    {
+      "city": "صباشهر",
+      "distance_km": 38,
+      "is_hard_route": false,
+      "note": "",
+      "id": "صباشهر",
+      "lat": 35.579899,
+      "lng": 51.113659
+    },
+    {
+      "city": "رباط‌کریم",
+      "distance_km": 40,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رباط‌کریم",
+      "lat": 35.47713,
+      "lng": 51.082945
+    },
+    {
+      "city": "کرج",
+      "distance_km": 40,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کرج",
+      "lat": 35.814368,
+      "lng": 51.021621
+    },
+    {
+      "city": "فردیس",
+      "distance_km": 42,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فردیس",
+      "lat": 35.745179,
+      "lng": 50.981993
+    },
+    {
+      "city": "پردیس",
+      "distance_km": 42,
+      "is_hard_route": false,
+      "note": "",
+      "id": "پردیس",
+      "lat": 35.744899,
+      "lng": 51.791728
+    },
+    {
+      "city": "شاهدشهر",
+      "distance_km": 42,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شاهدشهر",
+      "lat": 35.573115,
+      "lng": 51.086863
+    },
+    {
+      "city": "فردوسیه",
+      "distance_km": 43,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فردوسیه",
+      "lat": 35.600069,
+      "lng": 51.062706
+    },
+    {
+      "city": "وحیدیه",
+      "distance_km": 44,
+      "is_hard_route": false,
+      "note": "",
+      "id": "وحیدیه",
+      "lat": 35.607102,
+      "lng": 51.023985
+    },
+    {
+      "city": "نصیرشهر",
+      "distance_km": 45,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نصیرشهر",
+      "lat": 35.490042,
+      "lng": 51.139651
+    },
+    {
+      "city": "ملارد",
+      "distance_km": 45,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ملارد",
+      "lat": 35.667949,
+      "lng": 50.978421
+    },
+    {
+      "city": "پاکدشت",
+      "distance_km": 45,
+      "is_hard_route": false,
+      "note": "",
+      "id": "پاکدشت",
+      "lat": 35.487866,
+      "lng": 51.677541
+    },
+    {
+      "city": "پرند",
+      "distance_km": 50,
+      "is_hard_route": false,
+      "note": "",
+      "id": "پرند",
+      "lat": 35.490692,
+      "lng": 50.941185
+    },
+    {
+      "city": "بومهن",
+      "distance_km": 50,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بومهن",
+      "lat": 35.732242,
+      "lng": 51.871451
+    },
+    {
+      "city": "رودهن",
+      "distance_km": 52,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رودهن",
+      "lat": 35.734485,
+      "lng": 51.917328
+    },
+    {
+      "city": "مشکین‌دشت",
+      "distance_km": 53,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مشکین‌دشت",
+      "lat": 35.742384,
+      "lng": 50.934443
+    },
+    {
+      "city": "ورامین",
+      "distance_km": 55,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ورامین",
+      "lat": 35.344883,
+      "lng": 51.639814
+    },
+    {
+      "city": "محمدشهر",
+      "distance_km": 55,
+      "is_hard_route": false,
+      "note": "",
+      "id": "محمدشهر",
+      "lat": 32.87538,
+      "lng": 59.017759
+    },
+    {
+      "city": "کمال‌شهر",
+      "distance_km": 55,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کمال‌شهر",
+      "lat": 35.865115,
+      "lng": 50.880876
+    },
+    {
+      "city": "چهارباغ",
+      "distance_km": 65,
+      "is_hard_route": false,
+      "note": "",
+      "id": "چهارباغ",
+      "lat": 35.838354,
+      "lng": 50.846285
+    },
+    {
+      "city": "ماهدشت",
+      "distance_km": 68,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ماهدشت",
+      "lat": 35.725693,
+      "lng": 50.807569
+    },
+    {
+      "city": "دماوند",
+      "distance_km": 75,
+      "is_hard_route": false,
+      "note": "",
+      "id": "دماوند",
+      "lat": 35.702697,
+      "lng": 52.048019
+    },
+    {
+      "city": "هشتگرد (مهستان)",
+      "distance_km": 80,
+      "is_hard_route": false,
+      "note": "",
+      "id": "هشتگرد_(مهستان)",
+      "lat": 35.961461,
+      "lng": 50.685387
+    },
+    {
+      "city": "نظرآباد",
+      "distance_km": 90,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نظرآباد",
+      "lat": 35.959255,
+      "lng": 50.606005
+    },
+    {
+      "city": "آبیک",
+      "distance_km": 92,
+      "is_hard_route": false,
+      "note": "",
+      "id": "آبیک",
+      "lat": 36.041363,
+      "lng": 50.530206
+    },
+    {
+      "city": "گرمسار",
+      "distance_km": 106,
+      "is_hard_route": false,
+      "note": "",
+      "id": "گرمسار",
+      "lat": 35.219101,
+      "lng": 52.34003
+    },
+    {
+      "city": "مأمونیه",
+      "distance_km": 108,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مأمونیه",
+      "lat": 35.302055,
+      "lng": 50.49947
+    },
+    {
+      "city": "ساوه",
+      "distance_km": 127,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ساوه",
+      "lat": 35.02883,
+      "lng": 50.364253
+    },
+    {
+      "city": "قم",
+      "distance_km": 132,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قم",
+      "lat": 34.618738,
+      "lng": 50.859806
+    },
+    {
+      "city": "محمدیه (زیباشهر)",
+      "distance_km": 135,
+      "is_hard_route": false,
+      "note": "",
+      "id": "محمدیه_(زیباشهر)",
+      "lat": 36.222222,
+      "lng": 50.183984
+    },
+    {
+      "city": "کلاردشت",
+      "distance_km": 135,
+      "is_hard_route": false,
+      "note": "از آزادراه و مرزن‌آباد",
+      "id": "کلاردشت",
+      "lat": 36.501311,
+      "lng": 51.165308
+    },
+    {
+      "city": "الوند",
+      "distance_km": 141,
+      "is_hard_route": false,
+      "note": "",
+      "id": "الوند",
+      "lat": 36.185707,
+      "lng": 50.074356
+    },
+    {
+      "city": "شریفیه",
+      "distance_km": 142,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شریفیه",
+      "lat": 36.211879,
+      "lng": 50.151498
+    },
+    {
+      "city": "قزوین",
+      "distance_km": 152,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قزوین",
+      "lat": 36.276033,
+      "lng": 50.008847
+    },
+    {
+      "city": "چالوس",
+      "distance_km": 154,
+      "is_hard_route": false,
+      "note": "از آزادراه تهران-شمال",
+      "id": "چالوس",
+      "lat": 36.66025,
+      "lng": 51.414689
+    },
+    {
+      "city": "محمودآباد نمونه",
+      "distance_km": 158,
+      "is_hard_route": false,
+      "note": "",
+      "id": "محمودآباد_نمونه",
+      "lat": 36.290646,
+      "lng": 49.902493
+    },
+    {
+      "city": "نوشهر",
+      "distance_km": 160,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نوشهر",
+      "lat": 36.650903,
+      "lng": 51.492483
+    },
+    {
+      "city": "آمل",
+      "distance_km": 184,
+      "is_hard_route": false,
+      "note": "از هراز",
+      "id": "آمل",
+      "lat": 36.508252,
+      "lng": 52.339113
+    },
+    {
+      "city": "(امتداد مسیر ساحلی بعد از چالوس)تنکابن (شهسوار)",
+      "distance_km": 197,
+      "is_hard_route": false,
+      "note": "",
+      "id": "(امتداد_مسیر_ساحلی_بعد_از_چالوس)تنکابن_(شهسوار)",
+      "lat": 36.816807,
+      "lng": 50.87362
+    },
+    {
+      "city": "سرخه",
+      "distance_km": 202,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سرخه",
+      "lat": 35.463232,
+      "lng": 53.20862
+    },
+    {
+      "city": "محمودآباد",
+      "distance_km": 204,
+      "is_hard_route": false,
+      "note": "از هراز",
+      "id": "محمودآباد",
+      "lat": 29.864719,
+      "lng": 53.127964
+    },
+    {
+      "city": "نور",
+      "distance_km": 212,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نور",
+      "lat": 36.56342,
+      "lng": 52.024945
+    },
+    {
+      "city": "کتالم و سادات‌شهر",
+      "distance_km": 212,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کتالم_و_سادات‌شهر",
+      "lat": 36.877694,
+      "lng": 50.724477
+    },
+    {
+      "city": "بابل",
+      "distance_km": 214,
+      "is_hard_route": false,
+      "note": "از هراز",
+      "id": "بابل",
+      "lat": 36.309825,
+      "lng": 52.626059
+    },
+    {
+      "city": "رامسر",
+      "distance_km": 219,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رامسر",
+      "lat": 36.916727,
+      "lng": 50.660833
+    },
+    {
+      "city": "سمنان",
+      "distance_km": 224,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سمنان",
+      "lat": 35.58572,
+      "lng": 53.397163
+    },
+    {
+      "city": "امیرکلا",
+      "distance_km": 227,
+      "is_hard_route": false,
+      "note": "از هراز",
+      "id": "امیرکلا",
+      "lat": 36.598592,
+      "lng": 52.663448
+    },
+    {
+      "city": "بابلسر",
+      "distance_km": 231,
+      "is_hard_route": false,
+      "note": "از هراز",
+      "id": "بابلسر",
+      "lat": 36.702492,
+      "lng": 52.662788
+    },
+    {
+      "city": "ابهر",
+      "distance_km": 233,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ابهر",
+      "lat": 36.14971,
+      "lng": 49.228076
+    },
+    {
+      "city": "قائم‌شهر",
+      "distance_km": 235,
+      "is_hard_route": false,
+      "note": "از فیروزکوه",
+      "id": "قائم‌شهر",
+      "lat": 36.464166,
+      "lng": 52.857992
+    },
+    {
+      "city": "خرمدره",
+      "distance_km": 239,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خرمدره",
+      "lat": 36.204122,
+      "lng": 49.19914
+    },
+    {
+      "city": "کاشان",
+      "distance_km": 246,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کاشان",
+      "lat": 33.952558,
+      "lng": 51.464465
+    },
+    {
+      "city": "آران و بیدگل",
+      "distance_km": 254,
+      "is_hard_route": false,
+      "note": "",
+      "id": "آران_و_بیدگل",
+      "lat": 34.048446,
+      "lng": 51.482998
+    },
+    {
+      "city": "ساری",
+      "distance_km": 256,
+      "is_hard_route": false,
+      "note": "از فیروزکوه",
+      "id": "ساری",
+      "lat": 36.556878,
+      "lng": 53.06631
+    },
+    {
+      "city": "کبودرآهنگ",
+      "distance_km": 265,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کبودرآهنگ",
+      "lat": 35.20965,
+      "lng": 48.724599
+    },
+    {
+      "city": "جویبار",
+      "distance_km": 281,
+      "is_hard_route": false,
+      "note": "از فیروزکوه",
+      "id": "جویبار",
+      "lat": 36.640699,
+      "lng": 52.904191
+    },
+    {
+      "city": "نکا",
+      "distance_km": 282,
+      "is_hard_route": false,
+      "note": "از فیروزکوه",
+      "id": "نکا",
+      "lat": 36.627585,
+      "lng": 53.262016
+    },
+    {
+      "city": "اراک",
+      "distance_km": 283,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اراک",
+      "lat": 34.088223,
+      "lng": 49.714724
+    },
+    {
+      "city": "بهشهر",
+      "distance_km": 305,
+      "is_hard_route": false,
+      "note": "از فیروزکوه",
+      "id": "بهشهر",
+      "lat": 36.693706,
+      "lng": 53.544889
+    },
+    {
+      "city": "قیدار (خدابنده)",
+      "distance_km": 308,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قیدار_(خدابنده)",
+      "lat": 36.118446,
+      "lng": 48.589669
+    },
+    {
+      "city": "بهار",
+      "distance_km": 312,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بهار",
+      "lat": 34.900231,
+      "lng": 48.43998
+    },
+    {
+      "city": "مهاجران",
+      "distance_km": 315,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مهاجران",
+      "lat": 34.049019,
+      "lng": 49.43116
+    },
+    {
+      "city": "شازند",
+      "distance_km": 316,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شازند",
+      "lat": 33.930483,
+      "lng": 49.412979
+    },
+    {
+      "city": "رشت",
+      "distance_km": 319,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رشت",
+      "lat": 37.325568,
+      "lng": 49.631721
+    },
+    {
+      "city": "همدان",
+      "distance_km": 320,
+      "is_hard_route": false,
+      "note": "",
+      "id": "همدان",
+      "lat": 34.812784,
+      "lng": 48.528231
+    },
+    {
+      "city": "زنجان",
+      "distance_km": 326,
+      "is_hard_route": false,
+      "note": "",
+      "id": "زنجان",
+      "lat": 36.67629,
+      "lng": 48.508947
+    },
+    {
+      "city": "گلوگاه",
+      "distance_km": 332,
+      "is_hard_route": false,
+      "note": "از فیروزکوه",
+      "id": "گلوگاه",
+      "lat": 36.309825,
+      "lng": 52.626059
+    },
+    {
+      "city": "لاهیجان",
+      "distance_km": 335,
+      "is_hard_route": false,
+      "note": "",
+      "id": "لاهیجان",
+      "lat": 37.203888,
+      "lng": 50.000971
+    },
+    {
+      "city": "خمین",
+      "distance_km": 336,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خمین",
+      "lat": 33.636324,
+      "lng": 50.085411
+    },
+    {
+      "city": "خمام",
+      "distance_km": 336,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خمام",
+      "lat": 37.386502,
+      "lng": 49.654238
+    },
+    {
+      "city": "آستانه اشرفیه",
+      "distance_km": 342,
+      "is_hard_route": false,
+      "note": "",
+      "id": "آستانه_اشرفیه",
+      "lat": 37.264954,
+      "lng": 49.943244
+    },
+    {
+      "city": "دامغان",
+      "distance_km": 343,
+      "is_hard_route": false,
+      "note": "",
+      "id": "دامغان",
+      "lat": 36.165393,
+      "lng": 54.338198
+    },
+    {
+      "city": "صومعه‌سرا",
+      "distance_km": 345,
+      "is_hard_route": false,
+      "note": "",
+      "id": "صومعه‌سرا",
+      "lat": 37.300147,
+      "lng": 49.318171
+    },
+    {
+      "city": "فومن",
+      "distance_km": 347,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فومن",
+      "lat": 37.228323,
+      "lng": 49.314076
+    },
+    {
+      "city": "گلپایگان",
+      "distance_km": 348,
+      "is_hard_route": false,
+      "note": "از مسیر سلفچگان",
+      "id": "گلپایگان",
+      "lat": 33.452459,
+      "lng": 50.281175
+    },
+    {
+      "city": "بندر انزلی",
+      "distance_km": 359,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_انزلی",
+      "lat": 37.478519,
+      "lng": 49.454839
+    },
+    {
+      "city": "تویسرکان",
+      "distance_km": 362,
+      "is_hard_route": false,
+      "note": "",
+      "id": "تویسرکان",
+      "lat": 34.550989,
+      "lng": 48.445373
+    },
+    {
+      "city": "لنگرود",
+      "distance_km": 362,
+      "is_hard_route": false,
+      "note": "",
+      "id": "لنگرود",
+      "lat": 37.186558,
+      "lng": 50.157655
+    },
+    {
+      "city": "بندرگز",
+      "distance_km": 372,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندرگز",
+      "lat": 36.770233,
+      "lng": 53.949456
+    },
+    {
+      "city": "رودسر",
+      "distance_km": 375,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رودسر",
+      "lat": 37.141833,
+      "lng": 50.299668
+    },
+    {
+      "city": "خوانسار",
+      "distance_km": 375,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خوانسار",
+      "lat": 33.245231,
+      "lng": 50.311355
+    },
+    {
+      "city": "ملایر",
+      "distance_km": 383,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ملایر",
+      "lat": 34.302021,
+      "lng": 48.814917
+    },
+    {
+      "city": "کردکوی",
+      "distance_km": 385,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کردکوی",
+      "lat": 36.791169,
+      "lng": 54.109388
+    },
+    {
+      "city": "بروجرد",
+      "distance_km": 392,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بروجرد",
+      "lat": 33.900839,
+      "lng": 48.755607
+    },
+    {
+      "city": "اسدآباد",
+      "distance_km": 395,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اسدآباد",
+      "lat": 34.782971,
+      "lng": 48.122087
+    },
+    {
+      "city": "الیگودرز",
+      "distance_km": 395,
+      "is_hard_route": false,
+      "note": "",
+      "id": "الیگودرز",
+      "lat": 33.401562,
+      "lng": 49.694638
+    },
+    {
+      "city": "قروه",
+      "distance_km": 398,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قروه",
+      "lat": 35.310924,
+      "lng": 49.099726
+    },
+    {
+      "city": "نهاوند",
+      "distance_km": 408,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نهاوند",
+      "lat": 34.194508,
+      "lng": 48.373763
+    },
+    {
+      "city": "ازنا",
+      "distance_km": 412,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ازنا",
+      "lat": 33.456135,
+      "lng": 49.456225
+    },
+    {
+      "city": "شاهرود",
+      "distance_km": 413,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شاهرود",
+      "lat": 36.413503,
+      "lng": 54.973397
+    },
+    {
+      "city": "گرمان / گرگان",
+      "distance_km": 414,
+      "is_hard_route": false,
+      "note": "",
+      "id": "گرمان_/_گرگان",
+      "lat": 36.838174,
+      "lng": 54.435134
+    },
+    {
+      "city": "کنگاور",
+      "distance_km": 415,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کنگاور",
+      "lat": 34.502846,
+      "lng": 47.957295
+    },
+    {
+      "city": "بیجار",
+      "distance_km": 415,
+      "is_hard_route": false,
+      "note": "از مسیر زنجان",
+      "id": "بیجار",
+      "lat": 35.877461,
+      "lng": 47.606239
+    },
+    {
+      "city": "شاهین‌شهر",
+      "distance_km": 422,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شاهین‌شهر",
+      "lat": 36.678912,
+      "lng": 46.569006
+    },
+    {
+      "city": "گزبرخوار",
+      "distance_km": 425,
+      "is_hard_route": false,
+      "note": "",
+      "id": "گزبرخوار",
+      "lat": 32.804236,
+      "lng": 51.613613
+    },
+    {
+      "city": "دورود",
+      "distance_km": 425,
+      "is_hard_route": false,
+      "note": "",
+      "id": "دورود",
+      "lat": 33.496834,
+      "lng": 49.05594
+    },
+    {
+      "city": "آق‌قلا",
+      "distance_km": 428,
+      "is_hard_route": false,
+      "note": "",
+      "id": "آق‌قلا",
+      "lat": 37.01196,
+      "lng": 54.455395
+    },
+    {
+      "city": "بندر ترکمن",
+      "distance_km": 428,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_ترکمن",
+      "lat": 36.894303,
+      "lng": 54.069859
+    },
+    {
+      "city": "خورزوق",
+      "distance_km": 432,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خورزوق",
+      "lat": 32.780147,
+      "lng": 51.645929
+    },
+    {
+      "city": "هشتپر (تالش)",
+      "distance_km": 434,
+      "is_hard_route": false,
+      "note": "",
+      "id": "هشتپر_(تالش)",
+      "lat": 37.795296,
+      "lng": 48.903412
+    },
+    {
+      "city": "دولت‌آباد",
+      "distance_km": 436,
+      "is_hard_route": false,
+      "note": "",
+      "id": "دولت‌آباد",
+      "lat": 28.933927,
+      "lng": 58.462016
+    },
+    {
+      "city": "خمینی‌شهر",
+      "distance_km": 438,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خمینی‌شهر",
+      "lat": 30.49017,
+      "lng": 49.074296
+    },
+    {
+      "city": "میانه",
+      "distance_km": 438,
+      "is_hard_route": false,
+      "note": "",
+      "id": "میانه",
+      "lat": 37.427519,
+      "lng": 47.713904
+    },
+    {
+      "city": "اصفهان",
+      "distance_km": 440,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اصفهان",
+      "lat": 32.658518,
+      "lng": 51.683629
+    },
+    {
+      "city": "دهگلان",
+      "distance_km": 445,
+      "is_hard_route": false,
+      "note": "",
+      "id": "دهگلان",
+      "lat": 35.278698,
+      "lng": 47.419837
+    },
+    {
+      "city": "ابریشم",
+      "distance_km": 446,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ابریشم",
+      "lat": 32.569497,
+      "lng": 51.57345
+    },
+    {
+      "city": "کلیشاد و سودرجان",
+      "distance_km": 448,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کلیشاد_و_سودرجان",
+      "lat": 32.552780,
+      "lng": 51.529398
+    },
+    {
+      "city": "صحنه",
+      "distance_km": 448,
+      "is_hard_route": false,
+      "note": "",
+      "id": "صحنه",
+      "lat": 36.990236,
+      "lng": 54.38426
+    },
+    {
+      "city": "فلاورجان",
+      "distance_km": 450,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فلاورجان",
+      "lat": 32.551072,
+      "lng": 51.508658
+    },
+    {
+      "city": "علی‌آباد کتول",
+      "distance_km": 453,
+      "is_hard_route": false,
+      "note": "",
+      "id": "علی‌آباد_کتول",
+      "lat": 36.908608,
+      "lng": 54.866272
+    },
+    {
+      "city": "نائین",
+      "distance_km": 454,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نائین",
+      "lat": 32.860359,
+      "lng": 53.09626
+    },
+    {
+      "city": "نجف‌آباد",
+      "distance_km": 462,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نجف‌آباد",
+      "lat": 31.06847,
+      "lng": 52.728233
+    },
+    {
+      "city": "گلدشت",
+      "distance_km": 465,
+      "is_hard_route": false,
+      "note": "",
+      "id": "گلدشت",
+      "lat": 29.872412,
+      "lng": 52.719504
+    },
+    {
+      "city": "تیران",
+      "distance_km": 465,
+      "is_hard_route": false,
+      "note": "",
+      "id": "تیران",
+      "lat": 32.69928,
+      "lng": 51.158765
+    },
+    {
+      "city": "قهدریجان",
+      "distance_km": 466,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قهدریجان",
+      "lat": 32.577847,
+      "lng": 51.461539
+    },
+    {
+      "city": "داران",
+      "distance_km": 470,
+      "is_hard_route": false,
+      "note": "",
+      "id": "داران",
+      "lat": 32.986483,
+      "lng": 50.411505
+    },
+    {
+      "city": "الشتر",
+      "distance_km": 478,
+      "is_hard_route": false,
+      "note": "",
+      "id": "الشتر",
+      "lat": 33.86495,
+      "lng": 48.263459
+    },
+    {
+      "city": "هرسین",
+      "distance_km": 478,
+      "is_hard_route": false,
+      "note": "",
+      "id": "هرسین",
+      "lat": 34.272283,
+      "lng": 47.585775
+    },
+    {
+      "city": "مبارکه",
+      "distance_km": 480,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مبارکه",
+      "lat": 32.352501,
+      "lng": 51.500951
+    },
+    {
+      "city": "زرین‌شهر",
+      "distance_km": 482,
+      "is_hard_route": false,
+      "note": "",
+      "id": "زرین‌شهر",
+      "lat": 33.010308,
+      "lng": 46.883591
+    },
+    {
+      "city": "خرم‌آباد",
+      "distance_km": 482,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خرم‌آباد",
+      "lat": 33.480568,
+      "lng": 48.347192
+    },
+    {
+      "city": "خلخال",
+      "distance_km": 485,
+      "is_hard_route": true,
+      "note": "",
+      "id": "خلخال",
+      "lat": 37.619389,
+      "lng": 48.528566
+    },
+    {
+      "city": "سنندج",
+      "distance_km": 488,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سنندج",
+      "lat": 35.305874,
+      "lng": 46.99801
+    },
+    {
+      "city": "سنقر",
+      "distance_km": 490,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سنقر",
+      "lat": 34.77553,
+      "lng": 47.598886
+    },
+    {
+      "city": "مرز آستارا (گیلان)",
+      "distance_km": 500,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_آستارا_(گیلان)",
+      "lat": 38.412882,
+      "lng": 48.870484
+    },
+    {
+      "city": "کرمانشاه",
+      "distance_km": 503,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کرمانشاه",
+      "lat": 34.337654,
+      "lng": 47.096437
+    },
+    {
+      "city": "آباده",
+      "distance_km": 510,
+      "is_hard_route": false,
+      "note": "",
+      "id": "آباده",
+      "lat": 29.811046,
+      "lng": 53.728831
+    },
+    {
+      "city": "شهرضا",
+      "distance_km": 515,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شهرضا",
+      "lat": 32.003287,
+      "lng": 51.859651
+    },
+    {
+      "city": "تکاب",
+      "distance_km": 525,
+      "is_hard_route": false,
+      "note": "از مسیر زنجان - دندی",
+      "id": "تکاب",
+      "lat": 36.40138,
+      "lng": 47.113406
+    },
+    {
+      "city": "فرخ‌شهر",
+      "distance_km": 530,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فرخ‌شهر",
+      "lat": 32.260597,
+      "lng": 50.980295
+    },
+    {
+      "city": "شهرکرد",
+      "distance_km": 543,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شهرکرد",
+      "lat": 32.328120,
+      "lng": 50.861739
+    },
+    {
+      "city": "مرز اینچه‌برون (گلستان)",
+      "distance_km": 545,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_اینچه‌برون_(گلستان)",
+      "lat": 37.452978,
+      "lng": 54.720016
+    },
+    {
+      "city": "اقلید",
+      "distance_km": 550,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اقلید",
+      "lat": 30.886578,
+      "lng": 52.693598
+    },
+    {
+      "city": "کامیاران",
+      "distance_km": 552,
+      "is_hard_route": true,
+      "note": "",
+      "id": "کامیاران",
+      "lat": 34.802131,
+      "lng": 46.938623
+    },
+    {
+      "city": "روانسر",
+      "distance_km": 557,
+      "is_hard_route": true,
+      "note": "",
+      "id": "روانسر",
+      "lat": 34.712356,
+      "lng": 46.652156
+    },
+    {
+      "city": "کوهدشت",
+      "distance_km": 558,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کوهدشت",
+      "lat": 33.531097,
+      "lng": 47.606477
+    },
+    {
+      "city": "هفشجان",
+      "distance_km": 558,
+      "is_hard_route": false,
+      "note": "",
+      "id": "هفشجان",
+      "lat": 32.227225,
+      "lng": 50.793715
+    },
+    {
+      "city": "بستان‌آباد",
+      "distance_km": 562,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بستان‌آباد",
+      "lat": 37.841607,
+      "lng": 46.832595
+    },
+    {
+      "city": "اسلام‌آباد غرب",
+      "distance_km": 565,
+      "is_hard_route": true,
+      "note": "",
+      "id": "اسلام‌آباد_غرب",
+      "lat": 34.113502,
+      "lng": 46.524223
+    },
+    {
+      "city": "اردکان",
+      "distance_km": 570,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اردکان",
+      "lat": 32.308112,
+      "lng": 54.014097
+    },
+    {
+      "city": "پلدختر",
+      "distance_km": 572,
+      "is_hard_route": false,
+      "note": "",
+      "id": "پلدختر",
+      "lat": 33.150023,
+      "lng": 47.714474
+    },
+    {
+      "city": "فارسان",
+      "distance_km": 575,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فارسان",
+      "lat": 32.2564,
+      "lng": 50.568193
+    },
+    {
+      "city": "اردبیل",
+      "distance_km": 581,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اردبیل",
+      "lat": 38.239584,
+      "lng": 48.28822
+    },
+    {
+      "city": "جوانرود",
+      "distance_km": 582,
+      "is_hard_route": true,
+      "note": "",
+      "id": "جوانرود",
+      "lat": 34.806159,
+      "lng": 46.494056
+    },
+    {
+      "city": "دیواندره",
+      "distance_km": 585,
+      "is_hard_route": true,
+      "note": "",
+      "id": "دیواندره",
+      "lat": 35.916633,
+      "lng": 47.026575
+    },
+    {
+      "city": "صفاشهر (خرم‌بید)",
+      "distance_km": 585,
+      "is_hard_route": false,
+      "note": "",
+      "id": "صفاشهر_(خرم‌بید)",
+      "lat": 30.618105,
+      "lng": 53.19482
+    },
+    {
+      "city": "میبد",
+      "distance_km": 585,
+      "is_hard_route": false,
+      "note": "",
+      "id": "میبد",
+      "lat": 32.242129,
+      "lng": 54.019693
+    },
+    {
+      "city": "سمیرم",
+      "distance_km": 600,
+      "is_hard_route": true,
+      "note": "",
+      "id": "سمیرم",
+      "lat": 31.409415,
+      "lng": 51.575668
+    },
+    {
+      "city": "سراب",
+      "distance_km": 600,
+      "is_hard_route": true,
+      "note": "",
+      "id": "سراب",
+      "lat": 32.898505,
+      "lng": 47.573617
+    },
+    {
+      "city": "بروجن",
+      "distance_km": 600,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بروجن",
+      "lat": 31.976974,
+      "lng": 51.296461
+    },
+    {
+      "city": "پاوه",
+      "distance_km": 615,
+      "is_hard_route": true,
+      "note": "",
+      "id": "پاوه",
+      "lat": 35.033672,
+      "lng": 46.366579
+    },
+    {
+      "city": "مریوان",
+      "distance_km": 615,
+      "is_hard_route": true,
+      "note": "",
+      "id": "مریوان",
+      "lat": 35.519464,
+      "lng": 46.183546
+    },
+    {
+      "city": "سهند",
+      "distance_km": 615,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سهند",
+      "lat": 37.943281,
+      "lng": 46.128475
+    },
+    {
+      "city": "تبریز",
+      "distance_km": 617,
+      "is_hard_route": false,
+      "note": "",
+      "id": "تبریز",
+      "lat": 38.066904,
+      "lng": 46.301104
+    },
+    {
+      "city": "حمیدیا",
+      "distance_km": 618,
+      "is_hard_route": false,
+      "note": "",
+      "id": "حمیدیا",
+      "lat": 31.826395,
+      "lng": 54.396275
+    },
+    {
+      "city": "سردرود",
+      "distance_km": 622,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سردرود",
+      "lat": 38.029877,
+      "lng": 46.146958
+    },
+    {
+      "city": "یزد",
+      "distance_km": 623,
+      "is_hard_route": false,
+      "note": "",
+      "id": "یزد",
+      "lat": 31.796118,
+      "lng": 54.375165
+    },
+    {
+      "city": "دره‌شهر",
+      "distance_km": 625,
+      "is_hard_route": true,
+      "note": "از مسیر پل‌دختر",
+      "id": "دره‌شهر",
+      "lat": 33.138511,
+      "lng": 47.37536
+    },
+    {
+      "city": "مرز باشماق (کردستان)",
+      "distance_km": 625,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_باشماق_(کردستان)",
+      "lat": 35.607592,
+      "lng": 46.035944
+    },
+    {
+      "city": "خسروشاه",
+      "distance_km": 626,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خسروشاه",
+      "lat": 37.953003,
+      "lng": 46.052251
+    },
+    {
+      "city": "بوکان",
+      "distance_km": 640,
+      "is_hard_route": false,
+      "note": "از مسیر کردستان",
+      "id": "بوکان",
+      "lat": 36.521926,
+      "lng": 46.209432
+    },
+    {
+      "city": "ایوان",
+      "distance_km": 640,
+      "is_hard_route": true,
+      "note": "",
+      "id": "ایوان",
+      "lat": 33.827319,
+      "lng": 46.308419
+    },
+    {
+      "city": "سرپل ذهاب",
+      "distance_km": 645,
+      "is_hard_route": true,
+      "note": "",
+      "id": "سرپل_ذهاب",
+      "lat": 34.457106,
+      "lng": 45.860448
+    },
+    {
+      "city": "میاندوآب",
+      "distance_km": 645,
+      "is_hard_route": false,
+      "note": "",
+      "id": "میاندوآب",
+      "lat": 36.967733,
+      "lng": 46.106222
+    },
+    {
+      "city": "اندیمشک",
+      "distance_km": 645,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اندیمشک",
+      "lat": 32.46093,
+      "lng": 48.347515
+    },
+    {
+      "city": "مرز خسروی (کرمانشاه)",
+      "distance_km": 645,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_خسروی_(کرمانشاه)",
+      "lat": 34.388992,
+      "lng": 45.471243
+    },
+    {
+      "city": "مرز پرویزخان (کرمانشاه)",
+      "distance_km": 650,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_پرویزخان_(کرمانشاه)",
+      "lat": 34.553401,
+      "lng": 45.588972
+    },
+    {
+      "city": "گیلانغرب",
+      "distance_km": 655,
+      "is_hard_route": true,
+      "note": "",
+      "id": "گیلانغرب",
+      "lat": 34.140164,
+      "lng": 45.921539
+    },
+    {
+      "city": "سبزوار",
+      "distance_km": 655,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سبزوار",
+      "lat": 36.208583,
+      "lng": 57.681842
+    },
+    {
+      "city": "دزفول",
+      "distance_km": 655,
+      "is_hard_route": false,
+      "note": "",
+      "id": "دزفول",
+      "lat": 32.394494,
+      "lng": 48.398206
+    },
+    {
+      "city": "مهریز",
+      "distance_km": 655,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مهریز",
+      "lat": 31.585385,
+      "lng": 54.435885
+    },
+    {
+      "city": "آذرشهر",
+      "distance_km": 662,
+      "is_hard_route": false,
+      "note": "",
+      "id": "آذرشهر",
+      "lat": 37.770962,
+      "lng": 45.973819
+    },
+    {
+      "city": "ایلام",
+      "distance_km": 665,
+      "is_hard_route": true,
+      "note": "",
+      "id": "ایلام",
+      "lat": 33.628908,
+      "lng": 46.40552
+    },
+    {
+      "city": "سقز",
+      "distance_km": 670,
+      "is_hard_route": true,
+      "note": "",
+      "id": "سقز",
+      "lat": 36.267476,
+      "lng": 46.271489
+    },
+    {
+      "city": "ابرکوه",
+      "distance_km": 670,
+      "is_hard_route": false,
+      "note": "از مسیر اصفهان - سورمق",
+      "id": "ابرکوه",
+      "lat": 31.127411,
+      "lng": 53.262889
+    },
+    {
+      "city": "مشگین‌شهر",
+      "distance_km": 675,
+      "is_hard_route": true,
+      "note": "",
+      "id": "مشگین‌شهر",
+      "lat": 38.393111,
+      "lng": 47.675066
+    },
+    {
+      "city": "شبستر",
+      "distance_km": 678,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شبستر",
+      "lat": 38.177873,
+      "lng": 45.704212
+    },
+    {
+      "city": "شوش",
+      "distance_km": 682,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شوش",
+      "lat": 32.202371,
+      "lng": 48.261782
+    },
+    {
+      "city": "مرند",
+      "distance_km": 685,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرند",
+      "lat": 38.426982,
+      "lng": 45.907439
+    },
+    {
+      "city": "مهاباد",
+      "distance_km": 685,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مهاباد",
+      "lat": 36.766704,
+      "lng": 45.726291
+    },
+    {
+      "city": "گرمی",
+      "distance_km": 688,
+      "is_hard_route": true,
+      "note": "",
+      "id": "گرمی",
+      "lat": 39.030666,
+      "lng": 48.081384
+    },
+    {
+      "city": "عجب‌شیر",
+      "distance_km": 690,
+      "is_hard_route": false,
+      "note": "",
+      "id": "عجب‌شیر",
+      "lat": 37.487098,
+      "lng": 45.887166
+    },
+    {
+      "city": "آشخانه",
+      "distance_km": 695,
+      "is_hard_route": false,
+      "note": "",
+      "id": "آشخانه",
+      "lat": 37.555985,
+      "lng": 56.924261
+    },
+    {
+      "city": "آبدانان",
+      "distance_km": 695,
+      "is_hard_route": true,
+      "note": "",
+      "id": "آبدانان",
+      "lat": 32.992837,
+      "lng": 47.420707
+    },
+    {
+      "city": "اهر",
+      "distance_km": 698,
+      "is_hard_route": true,
+      "note": "",
+      "id": "اهر",
+      "lat": 38.464404,
+      "lng": 47.042483
+    },
+    {
+      "city": "لردگان",
+      "distance_km": 700,
+      "is_hard_route": true,
+      "note": "",
+      "id": "لردگان",
+      "lat": 31.382351,
+      "lng": 50.84679
+    },
+    {
+      "city": "بناب",
+      "distance_km": 705,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بناب",
+      "lat": 38.426982,
+      "lng": 45.907439
+    },
+    {
+      "city": "گتوند",
+      "distance_km": 710,
+      "is_hard_route": false,
+      "note": "",
+      "id": "گتوند",
+      "lat": 32.245697,
+      "lng": 48.813319
+    },
+    {
+      "city": "مراغه",
+      "distance_km": 715,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مراغه",
+      "lat": 37.388057,
+      "lng": 46.247612
+    },
+    {
+      "city": "شوشتر",
+      "distance_km": 720,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شوشتر",
+      "lat": 32.049107,
+      "lng": 48.84236
+    },
+    {
+      "city": "انار",
+      "distance_km": 720,
+      "is_hard_route": false,
+      "note": "",
+      "id": "انار",
+      "lat": 28.969047,
+      "lng": 53.206261
+    },
+    {
+      "city": "مرز بیله‌سوار (اردبیل)",
+      "distance_km": 720,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_بیله‌سوار_(اردبیل)",
+      "lat": 39.378215,
+      "lng": 48.34735
+    },
+    {
+      "city": "بانه",
+      "distance_km": 730,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بانه",
+      "lat": 34.970475,
+      "lng": 46.360949
+    },
+    {
+      "city": "نقده",
+      "distance_km": 730,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نقده",
+      "lat": 36.955524,
+      "lng": 45.388622
+    },
+    {
+      "city": "اسفراین",
+      "distance_km": 730,
+      "is_hard_route": false,
+      "note": "از مسیر سبزوار",
+      "id": "اسفراین",
+      "lat": 37.068027,
+      "lng": 57.510116
+    },
+    {
+      "city": "ملکان",
+      "distance_km": 732,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ملکان",
+      "lat": 37.149376,
+      "lng": 46.099696
+    },
+    {
+      "city": "سردشت",
+      "distance_km": 735,
+      "is_hard_route": true,
+      "note": "از مسیر بانه-کردستان",
+      "id": "سردشت",
+      "lat": 31.382351,
+      "lng": 50.84679
+    },
+    {
+      "city": "بافق",
+      "distance_km": 735,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بافق",
+      "lat": 31.605964,
+      "lng": 55.402424
+    },
+    {
+      "city": "بجنورد",
+      "distance_km": 741,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بجنورد",
+      "lat": 37.474455,
+      "lng": 57.325818
+    },
+    {
+      "city": "مرز تمرچین (آذربایجان غربی)",
+      "distance_km": 745,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_تمرچین_(آذربایجان_غربی)",
+      "lat": 36.660058,
+      "lng": 45.095690
+    },
+    {
+      "city": "هادی‌شهر",
+      "distance_km": 748,
+      "is_hard_route": true,
+      "note": "",
+      "id": "هادی‌شهر",
+      "lat": 38.838652,
+      "lng": 45.662862
+    },
+    {
+      "city": "یاسوج",
+      "distance_km": 755,
+      "is_hard_route": true,
+      "note": "",
+      "id": "یاسوج",
+      "lat": 30.668992,
+      "lng": 51.582476
+    },
+    {
+      "city": "ارومیه",
+      "distance_km": 757,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ارومیه",
+      "lat": 37.549016,
+      "lng": 45.054429
+    },
+    {
+      "city": "بردسکن",
+      "distance_km": 760,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بردسکن",
+      "lat": 35.259455,
+      "lng": 57.96784
+    },
+    {
+      "city": "مرز جلفا (آذربایجان شرقی)",
+      "distance_km": 760,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_جلفا_(آذربایجان_شرقی)",
+      "lat": 38.934031,
+      "lng": 45.639888
+    },
+    {
+      "city": "دهلران",
+      "distance_km": 765,
+      "is_hard_route": true,
+      "note": "از مسیر اندیمشک",
+      "id": "دهلران",
+      "lat": 32.691668,
+      "lng": 47.270461
+    },
+    {
+      "city": "مرز مهران (ایلام)",
+      "distance_km": 765,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_مهران_(ایلام)",
+      "lat": 33.120403,
+      "lng": 46.172276
+    },
+    {
+      "city": "نیشابور",
+      "distance_km": 785,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نیشابور",
+      "lat": 36.214234,
+      "lng": 58.793955
+    },
+    {
+      "city": "ایذه",
+      "distance_km": 785,
+      "is_hard_route": false,
+      "note": "از مسیر اصفهان",
+      "id": "ایذه",
+      "lat": 31.830578,
+      "lng": 49.866215
+    },
+    {
+      "city": "پارس‌آباد",
+      "distance_km": 790,
+      "is_hard_route": true,
+      "note": "",
+      "id": "پارس‌آباد",
+      "lat": 39.646546,
+      "lng": 47.911063
+    },
+    {
+      "city": "اهواز",
+      "distance_km": 795,
+      "is_hard_route": false,
+      "note": "",
+      "id": "اهواز",
+      "lat": 31.296447,
+      "lng": 48.686842
+    },
+    {
+      "city": "خوی",
+      "distance_km": 798,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خوی",
+      "lat": 38.516705,
+      "lng": 44.956813
+    },
+    {
+      "city": "اشنویه",
+      "distance_km": 800,
+      "is_hard_route": true,
+      "note": "",
+      "id": "اشنویه",
+      "lat": 37.036979,
+      "lng": 45.098879
+    },
+    {
+      "city": "مرز نوردوز (آذربایجان شرقی)",
+      "distance_km": 800,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_نوردوز_(آذربایجان_شرقی)",
+      "lat": 38.849166,
+      "lng": 46.204709
+    },
+    {
+      "city": "شیروان",
+      "distance_km": 802,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شیروان",
+      "lat": 37.400637,
+      "lng": 57.92824
+    },
+    {
+      "city": "شیبان",
+      "distance_km": 802,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شیبان",
+      "lat": 31.396479,
+      "lng": 48.78971
+    },
+    {
+      "city": "کوت عبدالله",
+      "distance_km": 805,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کوت_عبدالله",
+      "lat": 31.232808,
+      "lng": 48.654774
+    },
+    {
+      "city": "کاشمر",
+      "distance_km": 810,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کاشمر",
+      "lat": 35.248791,
+      "lng": 58.465856
+    },
+    {
+      "city": "ویس",
+      "distance_km": 810,
+      "is_hard_route": false,
+      "note": "",
+      "id": "ویس",
+      "lat": 31.484543,
+      "lng": 48.87727
+    },
+    {
+      "city": "رفسنجان",
+      "distance_km": 810,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رفسنجان",
+      "lat": 30.38527,
+      "lng": 55.983687
+    },
+    {
+      "city": "پیرانشهر",
+      "distance_km": 820,
+      "is_hard_route": true,
+      "note": "",
+      "id": "پیرانشهر",
+      "lat": 36.695332,
+      "lng": 45.144036
+    },
+    {
+      "city": "حمیدیه",
+      "distance_km": 820,
+      "is_hard_route": false,
+      "note": "",
+      "id": "حمیدیه",
+      "lat": 31.482285,
+      "lng": 48.434783
+    },
+    {
+      "city": "سلماس",
+      "distance_km": 832,
+      "is_hard_route": true,
+      "note": "",
+      "id": "سلماس",
+      "lat": 38.199028,
+      "lng": 44.767278
+    },
+    {
+      "city": "طبس",
+      "distance_km": 835,
+      "is_hard_route": false,
+      "note": "از مسیر سمنان - خور",
+      "id": "طبس",
+      "lat": 32.814831,
+      "lng": 60.210581
+    },
+    {
+      "city": "قره‌ضیاءالدین",
+      "distance_km": 840,
+      "is_hard_route": true,
+      "note": "",
+      "id": "قره‌ضیاءالدین",
+      "lat": 38.890338,
+      "lng": 45.028156
+    },
+    {
+      "city": "چناران",
+      "distance_km": 865,
+      "is_hard_route": false,
+      "note": "",
+      "id": "چناران",
+      "lat": 37.399579,
+      "lng": 57.540348
+    },
+    {
+      "city": "رامهرمز",
+      "distance_km": 865,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رامهرمز",
+      "lat": 31.274307,
+      "lng": 49.607959
+    },
+    {
+      "city": "راور",
+      "distance_km": 865,
+      "is_hard_route": false,
+      "note": "",
+      "id": "راور",
+      "lat": 31.258555,
+      "lng": 56.807701
+    },
+    {
+      "city": "بندر دیلم",
+      "distance_km": 865,
+      "is_hard_route": true,
+      "note": "از مسیر اصفهان - اندیمشک",
+      "id": "بندر_دیلم",
+      "lat": 30.053187,
+      "lng": 50.180155
+    },
+    {
+      "city": "شوط",
+      "distance_km": 868,
+      "is_hard_route": true,
+      "note": "",
+      "id": "شوط",
+      "lat": 39.224459,
+      "lng": 44.76713
+    },
+    {
+      "city": "ماکو",
+      "distance_km": 885,
+      "is_hard_route": true,
+      "note": "",
+      "id": "ماکو",
+      "lat": 39.290662,
+      "lng": 44.48377
+    },
+    {
+      "city": "مرودشت",
+      "distance_km": 885,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرودشت",
+      "lat": 29.875188,
+      "lng": 52.808363
+    },
+    {
+      "city": "مرز بازرگان (آذربایجان غربی)",
+      "distance_km": 885,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_بازرگان_(آذربایجان_غربی)",
+      "lat": 39.391767,
+      "lng": 44.387031
+    },
+    {
+      "city": "رامشیر",
+      "distance_km": 890,
+      "is_hard_route": false,
+      "note": "",
+      "id": "رامشیر",
+      "lat": 30.8912,
+      "lng": 49.408349
+    },
+    {
+      "city": "زرند",
+      "distance_km": 895,
+      "is_hard_route": false,
+      "note": "",
+      "id": "زرند",
+      "lat": 30.819334,
+      "lng": 56.564253
+    },
+    {
+      "city": "شادگان",
+      "distance_km": 900,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شادگان",
+      "lat": 30.650396,
+      "lng": 48.662142
+    },
+    {
+      "city": "بندر امام خمینی (سربندر)",
+      "distance_km": 900,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_امام_خمینی_(سربندر)",
+      "lat": 30.553784,
+      "lng": 49.053286
+    },
+    {
+      "city": "زرقان",
+      "distance_km": 900,
+      "is_hard_route": false,
+      "note": "",
+      "id": "زرقان",
+      "lat": 29.761281,
+      "lng": 52.721404
+    },
+    {
+      "city": "بندر ماهشهر",
+      "distance_km": 905,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_ماهشهر",
+      "lat": 30.552064,
+      "lng": 49.215231
+    },
+    {
+      "city": "مشهد",
+      "distance_km": 909,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مشهد",
+      "lat": 36.30513,
+      "lng": 59.584724
+    },
+    {
+      "city": "چمران",
+      "distance_km": 910,
+      "is_hard_route": false,
+      "note": "",
+      "id": "چمران",
+      "lat": 30.714834,
+      "lng": 49.175334
+    },
+    {
+      "city": "صدرا",
+      "distance_km": 910,
+      "is_hard_route": false,
+      "note": "",
+      "id": "صدرا",
+      "lat": 29.808696,
+      "lng": 52.490378
+    },
+    {
+      "city": "خرمشهر",
+      "distance_km": 920,
+      "is_hard_route": true,
+      "note": "",
+      "id": "خرمشهر",
+      "lat": 30.427726,
+      "lng": 48.191358
+    },
+    {
+      "city": "مرز باجگیران (خراسان رضوی)",
+      "distance_km": 920,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_باجگیران_(خراسان_رضوی)",
+      "lat": 37.624308,
+      "lng": 58.414502
+    },
+    {
+      "city": "شیراز",
+      "distance_km": 924,
+      "is_hard_route": false,
+      "note": "",
+      "id": "شیراز",
+      "lat": 29.616298,
+      "lng": 52.518364
+    },
+    {
+      "city": "امیدیه",
+      "distance_km": 930,
+      "is_hard_route": false,
+      "note": "",
+      "id": "امیدیه",
+      "lat": 30.756968,
+      "lng": 49.700913
+    },
+    {
+      "city": "دهدشت",
+      "distance_km": 930,
+      "is_hard_route": true,
+      "note": "",
+      "id": "دهدشت",
+      "lat": 30.796883,
+      "lng": 50.565444
+    },
+    {
+      "city": "بندر گناوه",
+      "distance_km": 930,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_گناوه",
+      "lat": 29.581998,
+      "lng": 50.516648
+    },
+    {
+      "city": "آبادان",
+      "distance_km": 932,
+      "is_hard_route": true,
+      "note": "",
+      "id": "آبادان",
+      "lat": 30.355885,
+      "lng": 48.276669
+    },
+    {
+      "city": "دوگنبدان (گچساران)",
+      "distance_km": 935,
+      "is_hard_route": true,
+      "note": "",
+      "id": "دوگنبدان_(گچساران)",
+      "lat": 30.359513,
+      "lng": 50.784898
+    },
+    {
+      "city": "بهبهان",
+      "distance_km": 940,
+      "is_hard_route": false,
+      "note": "از مسیر شیراز/اصفهان",
+      "id": "بهبهان",
+      "lat": 30.593447,
+      "lng": 50.237551
+    },
+    {
+      "city": "فردوس",
+      "distance_km": 940,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فردوس",
+      "lat": 34.021564,
+      "lng": 58.174872
+    },
+    {
+      "city": "گناباد",
+      "distance_km": 945,
+      "is_hard_route": false,
+      "note": "",
+      "id": "گناباد",
+      "lat": 34.355596,
+      "lng": 58.681823
+    },
+    {
+      "city": "قوچان",
+      "distance_km": 950,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قوچان",
+      "lat": 37.101708,
+      "lng": 58.510017
+    },
+    {
+      "city": "تربت حیدریه",
+      "distance_km": 955,
+      "is_hard_route": false,
+      "note": "",
+      "id": "تربت_حیدریه",
+      "lat": 35.291206,
+      "lng": 59.216655
+    },
+    {
+      "city": "بردسیر",
+      "distance_km": 960,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بردسیر",
+      "lat": 29.927108,
+      "lng": 56.574441
+    },
+    {
+      "city": "نجف‌شهر",
+      "distance_km": 960,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نجف‌شهر",
+      "lat": 29.389703,
+      "lng": 55.720301
+    },
+    {
+      "city": "سیرجان",
+      "distance_km": 965,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سیرجان",
+      "lat": 29.455461,
+      "lng": 55.680204
+    },
+    {
+      "city": "کرمان",
+      "distance_km": 968,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کرمان",
+      "lat": 30.274269,
+      "lng": 57.058434
+    },
+    {
+      "city": "کوار",
+      "distance_km": 970,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کوار",
+      "lat": 29.206175,
+      "lng": 52.687906
+    },
+    {
+      "city": "فریمان",
+      "distance_km": 980,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فریمان",
+      "lat": 35.702104,
+      "lng": 59.848008
+    },
+    {
+      "city": "هندیجان",
+      "distance_km": 980,
+      "is_hard_route": false,
+      "note": "",
+      "id": "هندیجان",
+      "lat": 30.234248,
+      "lng": 49.711167
+    },
+    {
+      "city": "قائمیه",
+      "distance_km": 985,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قائمیه",
+      "lat": 29.850012,
+      "lng": 51.588445
+    },
+    {
+      "city": "برازجان",
+      "distance_km": 995,
+      "is_hard_route": true,
+      "note": "",
+      "id": "برازجان",
+      "lat": 29.268399,
+      "lng": 51.221478
+    },
+    {
+      "city": "کازرون",
+      "distance_km": 1010,
+      "is_hard_route": false,
+      "note": "",
+      "id": "کازرون",
+      "lat": 29.615728,
+      "lng": 51.660297
+    },
+    {
+      "city": "فیروزآباد",
+      "distance_km": 1015,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فیروزآباد",
+      "lat": 33.898364,
+      "lng": 48.103945
+    },
+    {
+      "city": "عالی‌شهر",
+      "distance_km": 1035,
+      "is_hard_route": true,
+      "note": "",
+      "id": "عالی‌شهر",
+      "lat": 28.932701,
+      "lng": 51.067002
+    },
+    {
+      "city": "بوشهر",
+      "distance_km": 1042,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بوشهر",
+      "lat": 28.927617,
+      "lng": 50.849794
+    },
+    {
+      "city": "نی‌ریز",
+      "distance_km": 1050,
+      "is_hard_route": false,
+      "note": "",
+      "id": "نی‌ریز",
+      "lat": 29.192882,
+      "lng": 54.326225
+    },
+    {
+      "city": "تربت جام",
+      "distance_km": 1065,
+      "is_hard_route": false,
+      "note": "",
+      "id": "تربت_جام",
+      "lat": 35.239221,
+      "lng": 60.622916
+    },
+    {
+      "city": "فسا",
+      "distance_km": 1065,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فسا",
+      "lat": 28.937129,
+      "lng": 53.665151
+    },
+    {
+      "city": "خواف",
+      "distance_km": 1070,
+      "is_hard_route": false,
+      "note": "",
+      "id": "خواف",
+      "lat": 34.570827,
+      "lng": 60.144757
+    },
+    {
+      "city": "استهبان",
+      "distance_km": 1070,
+      "is_hard_route": false,
+      "note": "",
+      "id": "استهبان",
+      "lat": 29.124025,
+      "lng": 54.042465
+    },
+    {
+      "city": "خورموج",
+      "distance_km": 1070,
+      "is_hard_route": true,
+      "note": "",
+      "id": "خورموج",
+      "lat": 28.659286,
+      "lng": 51.381752
+    },
+    {
+      "city": "سرخس",
+      "distance_km": 1085,
+      "is_hard_route": false,
+      "note": "",
+      "id": "سرخس",
+      "lat": 36.543907,
+      "lng": 61.154924
+    },
+    {
+      "city": "فراشبند",
+      "distance_km": 1085,
+      "is_hard_route": false,
+      "note": "",
+      "id": "فراشبند",
+      "lat": 28.874033,
+      "lng": 52.087072
+    },
+    {
+      "city": "قائن",
+      "distance_km": 1085,
+      "is_hard_route": false,
+      "note": "از مسیر گناباد",
+      "id": "قائن",
+      "lat": 33.736201,
+      "lng": 59.179005
+    },
+    {
+      "city": "مرز سرخس (خراسان رضوی)",
+      "distance_km": 1085,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_سرخس_(خراسان_رضوی)",
+      "lat": 36.543907,
+      "lng": 61.154924
+    },
+    {
+      "city": "جهرم",
+      "distance_km": 1105,
+      "is_hard_route": false,
+      "note": "",
+      "id": "جهرم",
+      "lat": 28.513145,
+      "lng": 53.578612
+    },
+    {
+      "city": "قیر",
+      "distance_km": 1110,
+      "is_hard_route": false,
+      "note": "",
+      "id": "قیر",
+      "lat": 28.472503,
+      "lng": 53.044271
+    },
+    {
+      "city": "مرز لطف‌آباد (خراسان رضوی)",
+      "distance_km": 1110,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_لطف‌آباد_(خراسان_رضوی)",
+      "lat": 37.518831,
+      "lng": 59.337279
+    },
+    {
+      "city": "تایباد",
+      "distance_km": 1115,
+      "is_hard_route": false,
+      "note": "",
+      "id": "تایباد",
+      "lat": 34.742932,
+      "lng": 60.778087
+    },
+    {
+      "city": "حاجی‌آباد",
+      "distance_km": 1115,
+      "is_hard_route": false,
+      "note": "",
+      "id": "حاجی‌آباد",
+      "lat": 33.602468,
+      "lng": 59.99832
+    },
+    {
+      "city": "مرز دوقارون (خراسان رضوی)",
+      "distance_km": 1115,
+      "is_hard_route": false,
+      "note": "",
+      "id": "مرز_دوقارون_(خراسان_رضوی)",
+      "lat": 34.738777,
+      "lng": 60.878154
+    },
+    {
+      "city": "درگز",
+      "distance_km": 1120,
+      "is_hard_route": false,
+      "note": "",
+      "id": "درگز",
+      "lat": 37.448009,
+      "lng": 59.107712
+    },
+    {
+      "city": "بافت",
+      "distance_km": 1120,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بافت",
+      "lat": 29.233161,
+      "lng": 56.596292
+    },
+    {
+      "city": "بروات",
+      "distance_km": 1155,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بروات",
+      "lat": 29.063463,
+      "lng": 58.418867
+    },
+    {
+      "city": "بم",
+      "distance_km": 1160,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بم",
+      "lat": 29.012877,
+      "lng": 58.465943
+    },
+    {
+      "city": "داراب",
+      "distance_km": 1165,
+      "is_hard_route": false,
+      "note": "",
+      "id": "داراب",
+      "lat": 28.754779,
+      "lng": 54.550545
+    },
+    {
+      "city": "بیرجند",
+      "distance_km": 1178,
+      "is_hard_route": false,
+      "note": "",
+      "id": "بیرجند",
+      "lat": 32.877101,
+      "lng": 59.234569
+    },
+    {
+      "city": "حاجی‌آباد (زرین‌دشت)",
+      "distance_km": 1200,
+      "is_hard_route": false,
+      "note": "",
+      "id": "حاجی‌آباد_(زرین‌دشت)",
+      "lat": 33.602468,
+      "lng": 59.99832
+    },
+    {
+      "city": "لار",
+      "distance_km": 1230,
+      "is_hard_route": false,
+      "note": "",
+      "id": "لار",
+      "lat": 27.693424,
+      "lng": 54.336234
+    },
+    {
+      "city": "جم",
+      "distance_km": 1230,
+      "is_hard_route": true,
+      "note": "",
+      "id": "جم",
+      "lat": 27.824378,
+      "lng": 52.336763
+    },
+    {
+      "city": "بندر کنگان",
+      "distance_km": 1240,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_کنگان",
+      "lat": 27.863822,
+      "lng": 52.055251
+    },
+    {
+      "city": "گراش",
+      "distance_km": 1245,
+      "is_hard_route": false,
+      "note": "",
+      "id": "گراش",
+      "lat": 27.666857,
+      "lng": 54.143113
+    },
+    {
+      "city": "محمدآباد (ریگان)",
+      "distance_km": 1250,
+      "is_hard_route": false,
+      "note": "",
+      "id": "محمدآباد_(ریگان)",
+      "lat": 28.652673,
+      "lng": 59.018458
+    },
+    {
+      "city": "بندر دیر",
+      "distance_km": 1250,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_دیر",
+      "lat": 27.836611,
+      "lng": 51.933567
+    },
+    {
+      "city": "لامرد",
+      "distance_km": 1260,
+      "is_hard_route": false,
+      "note": "",
+      "id": "لامرد",
+      "lat": 27.336603,
+      "lng": 53.188837
+    },
+    {
+      "city": "بندرعباس",
+      "distance_km": 1276,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندرعباس",
+      "lat": 27.19535,
+      "lng": 56.295454
+    },
+    {
+      "city": "کهنوج",
+      "distance_km": 1290,
+      "is_hard_route": true,
+      "note": "",
+      "id": "کهنوج",
+      "lat": 27.934776,
+      "lng": 57.699167
+    },
+    {
+      "city": "دهبارز (رودان)",
+      "distance_km": 1320,
+      "is_hard_route": true,
+      "note": "",
+      "id": "دهبارز_(رودان)",
+      "lat": 27.442807,
+      "lng": 57.191307
+    },
+    {
+      "city": "بندر پهل (واسط قشم)",
+      "distance_km": 1340,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندر_پهل_(واسط_قشم)",
+      "lat": 26.976014,
+      "lng": 55.748579
+    },
+    {
+      "city": "میناب",
+      "distance_km": 1370,
+      "is_hard_route": true,
+      "note": "",
+      "id": "میناب",
+      "lat": 27.133555,
+      "lng": 57.079432
+    },
+    {
+      "city": "بندر چارک / آفتاب (واسط کیش)",
+      "distance_km": 1430,
+      "is_hard_route": true,
+      "note": "",
+      "id": "",
+      "lat": 26.732126,
+      "lng": 51.274416
+    },
+    {
+      "city": "زابل",
+      "distance_km": 1430,
+      "is_hard_route": true,
+      "note": "",
+      "id": "زابل",
+      "lat": 31.030644,
+      "lng": 61.489527
+    },
+    {
+      "city": "مرز میلک (سیستان و بلوچستان)",
+      "distance_km": 1460,
+      "is_hard_route": true,
+      "note": "",
+      "id": "مرز_میلک_(سیستان_و_بلوچستان)",
+      "lat": 30.970719,
+      "lng": 61.810112
+    },
+    {
+      "city": "بندرلنگه",
+      "distance_km": 1480,
+      "is_hard_route": true,
+      "note": "",
+      "id": "بندرلنگه",
+      "lat": 26.567943,
+      "lng": 54.892962
+    },
+    {
+      "city": "زاهدان",
+      "distance_km": 1485,
+      "is_hard_route": true,
+      "note": "",
+      "id": "زاهدان",
+      "lat": 29.48623,
+      "lng": 60.851405
+    },
+    {
+      "city": "مرز میرجاوه (سیستان و بلوچستان)",
+      "distance_km": 1565,
+      "is_hard_route": true,
+      "note": "",
+      "id": "مرز_میرجاوه_(سیستان_و_بلوچستان)",
+      "lat": 29.018286,
+      "lng": 61.446601
+    },
+    {
+      "city": "خاش",
+      "distance_km": 1660,
+      "is_hard_route": true,
+      "note": "",
+      "id": "خاش",
+      "lat": 28.227276,
+      "lng": 61.183045
+    },
+    {
+      "city": "چابهار",
+      "distance_km": 1815,
+      "is_hard_route": true,
+      "note": "از مسیر کوتاه جدید؛ از مسیر ایرانشهر ۱۹۶۰ کیلومتر",
+      "id": "چابهار",
+      "lat": 25.29925,
+      "lng": 60.651927
+    },
+    {
+      "city": "سراوان",
+      "distance_km": 1830,
+      "is_hard_route": true,
+      "note": "",
+      "id": "سراوان",
+      "lat": 27.369558,
+      "lng": 62.335169
+    },
+    {
+      "city": "ایرانشهر",
+      "distance_km": 1835,
+      "is_hard_route": true,
+      "note": "",
+      "id": "ایرانشهر",
+      "lat": 27.204374,
+      "lng": 60.680367
+    },
+    {
+      "city": "مرز ریمدان (سیستان و بلوچستان)",
+      "distance_km": 1880,
+      "is_hard_route": true,
+      "note": "",
+      "id": "مرز_ریمدان_(سیستان_و_بلوچستان)",
+      "lat": 25.402241,
+      "lng": 61.447245
+    },
+    {
+      "city": "کنارک",
+      "distance_km": 2010,
+      "is_hard_route": true,
+      "note": "",
+      "id": "کنارک",
+      "lat": 25.362468,
+      "lng": 60.399475
+    }
+  ]
+}

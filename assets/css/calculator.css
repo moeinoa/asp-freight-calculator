@@ -1,0 +1,195 @@
+/* ── Honeypot (ضد ربات) ──────────────────────────────────────────
+   عمداً display:none نیست، چون بعضی بات‌ها این المان‌ها رو نادیده
+   می‌گیرن. به‌جاش کاملاً بیرون از دید و صفحه قرار می‌گیره. */
+.bc-hp {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  /*left: -9999px;*/
+  top: -9999px;
+}
+
+.bc-wrap {
+  --bc-ink:       #1c1b1a;
+  --bc-line:      #ddd6cc;
+  --bc-rust:      #b5512f;
+  --bc-rust-dark: var(--e-global-color-primary, #5E0520);
+  --bc-muted:     #756f64;
+  direction: rtl;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.bc-head { margin-bottom: 8px; }
+
+.bc-head-title {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--bc-ink);
+  margin: 0 0 8px;
+}
+
+.bc-row { margin-bottom: 16px; }
+
+.bc-label {
+  display: block;
+  font-size: 13.5px;
+  color: var(--bc-muted);
+  margin-bottom: 0;
+}
+
+.bc-select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--bc-ink);
+  background: #fff;
+  border: 1px solid var(--bc-line);
+  border-radius: 9px;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%23756f64' stroke-width='1.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left 14px center;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.bc-select:focus-visible {
+  outline: 2px solid var(--bc-rust);
+  outline-offset: 1px;
+  border-color: var(--bc-rust);
+}
+
+/* ── Combobox ─────────────────────────────────────────────────── */
+.bc-combo { position: relative; }
+
+.bc-combo-input {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Ccircle cx='7' cy='7' r='5.2' fill='none' stroke='%23756f64' stroke-width='1.5'/%3E%3Cline x1='11' y1='11' x2='14.5' y2='14.5' stroke='%23756f64' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-position: left 14px center;
+  cursor: text;
+}
+
+.bc-combo-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 6px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  background: #fff;
+  border: 1px solid var(--bc-line);
+  border-radius: 9px;
+  box-shadow: 0 8px 20px rgba(28,27,26,0.12);
+  max-height: 240px;
+  overflow-y: auto;
+  display: none;
+}
+
+.bc-combo-list.bc-combo-list-open { display: block; }
+
+.bc-combo-option {
+  padding: 8px 12px;
+  font-size: 14.5px;
+  color: var(--bc-ink);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bc-combo-option:hover,
+.bc-combo-option.bc-combo-option-active { background: #5E05201A; }
+
+.bc-combo-option mark {
+  background: none;
+  color: var(--bc-rust-dark);
+  font-weight: 700;
+}
+
+.bc-combo-empty {
+  padding: 10px 12px;
+  font-size: 13.5px;
+  color: var(--bc-muted);
+}
+
+/* ── Result ───────────────────────────────────────────────────── */
+.bc-result {
+  background: #5E05201A;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px 0 16px;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bc-result-label {
+  font-size: 12.5px;
+  color: var(--bc-rust-dark);
+  line-height: 24px;
+}
+
+.bc-result-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--bc-rust-dark);
+  letter-spacing: 0.3px;
+  direction: ltr;
+  unicode-bidi: plaintext;
+  text-align: center;
+}
+
+.bc-result-meta {
+  font-size: 12.5px;
+  color: var(--bc-rust-dark);
+  line-height: 24px;
+}
+
+/* ── Loading ──────────────────────────────────────────────────── */
+.bc-loading {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--bc-muted);
+  margin: -10px 0 10px;
+}
+
+.bc-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--bc-line);
+  border-top-color: var(--bc-rust-dark);
+  border-radius: 50%;
+  animation: asp-spin 0.7s linear infinite;
+  display: inline-block;
+}
+
+@keyframes asp-spin { to { transform: rotate(360deg); } }
+
+/* ── Disclaimer ───────────────────────────────────────────────── */
+.bc-disclaimer {
+  font-size: 11.5px;
+  color: var(--bc-rust-dark);
+  line-height: 1.7;
+}
+
+.bc-disclaimer ul {
+  margin: 0;
+  padding-right: 16px;
+}
+
+.bc-disclaimer li { margin-bottom: 4px; }
+
+.bc-disclaimer a {
+  color: var(--bc-rust-dark);
+  font-weight: 800;
+  font-size: 14px;
+}

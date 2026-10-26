@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ASP Freight Calculator 1.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/moeinoa/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-29T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-07-29T00:00:00+00:00\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: manual\n"
+"X-Domain: asp-freight\n"
+
+#. Plugin Name of the plugin
+#: asp-freight-calculator.php
+msgid "ASP Freight Calculator"
+msgstr "محاسبه‌گر کرایه ASP"
+
+#. Description of the plugin
+#: asp-freight-calculator.php
+msgid "Calculates intercity freight rates by vehicle type using the Neshan API."
+msgstr "محاسبه گر نرخ باربری بین شهری براساس نوع خودرو با API نشان"
+
+#. Author of the plugin
+#: asp-freight-calculator.php
+msgid "Moein Akbari"
+msgstr "معین اکبری"
