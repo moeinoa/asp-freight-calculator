@@ -11,7 +11,7 @@
  * Text Domain:       asp-freight
  * Domain Path:       /languages
  * License:           GPL-2.0+
- */
+ */ 
 
 defined( 'ABSPATH' ) || exit;
 
